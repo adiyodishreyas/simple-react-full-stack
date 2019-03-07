@@ -249,7 +249,7 @@ Above, we have modified editor configurations. Alternatively, this can be config
 
 #### Heroku deployment
 https://devcenter.heroku.com/articles/deploying-nodejs#advanced-http-features
-
+- Checking local installation => ```heroku local web```
 1. git add .
 2. git commit -m "Added a Procfile."
 3. heroku login
