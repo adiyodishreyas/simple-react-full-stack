@@ -55,7 +55,7 @@ yarn dev (or npm run dev)
 yarn build (or npm run build)
 
 # Start production server
-yarn start (or npm start)
+yarn prod-start (or npm prod-start)
 ```
 
 ## Documentation

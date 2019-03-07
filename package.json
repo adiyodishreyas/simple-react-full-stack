@@ -6,10 +6,11 @@
   "scripts": {
     "build": "webpack --mode production",
     "start": "node src/server/index.js",
+    "prod-start": "npm run build && npm run start",
     "client": "webpack-dev-server --mode development --devtool inline-source-map --hot",
     "server": "nodemon src/server/index.js",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-prebuild": "npm install --dev",
+    "heroku-prebuild": "yarn install --dev",
     "heroku-postbuild": "npm run build"
   },
   "author": "Shreyas Adiyodi",
