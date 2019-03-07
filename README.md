@@ -245,3 +245,13 @@ This starts a server and listens on port 8080 for connections. The app responds 
     ```
 
 Above, we have modified editor configurations. Alternatively, this can be configured at the project level by following [this article](https://medium.com/@netczuk/your-last-eslint-config-9e35bace2f99).
+
+
+#### Heroku deployment
+https://devcenter.heroku.com/articles/deploying-nodejs#advanced-http-features
+
+1. git add .
+2. git commit -m "Added a Procfile."
+3. heroku login
+4. heroku create
+5. git push heroku master
